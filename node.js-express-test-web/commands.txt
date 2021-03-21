@@ -1,0 +1,30 @@
+
+Study Guide 
+https://www.inflearn.com/course/nodejs-%ea%b0%95%ec%a2%8c-%ec%83%9d%ed%99%9c%ec%bd%94%eb%94%a9/%ec%88%98%ec%97%85%ec%86%8c%ea%b0%9c-2/
+
+GitHub create repository 
+
+npm install underscore --save
+
+
+npm init
+npm install express --save
+
+npm install eslint  -g
+
+npm install nodemon -g
+npm install supervisor -g
+
+nodemon app.js
+supervisor app.js
+
+Protocol HTTP domain a.COM path?query_string 
+POST method needs body-parser Middleware
+
+JADE - SPACE and INDENT in code are inportant
+
+
+
+
+
+
