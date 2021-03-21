@@ -1,0 +1,26 @@
+//
+//  NEW FORM 
+//
+doctype html
+html
+    head
+        meta(charset='utf-8')
+    body
+        H1
+            a(href='/topic/') Server side Java Sciprt
+        ul
+            each item in topics
+                li
+                    a(href='/topic/list/'+item)=item
+        article
+            h2=title
+            =desc
+        P
+        hr
+        div
+            a(href='/topic/new') Add new item 
+        
+        form(action='/topic/write' method='post')
+            input(type='text', name='title', placeholder='add title...')
+            textarea(name='description')
+            input(type='submit')  
